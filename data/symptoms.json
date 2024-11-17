@@ -1,0 +1,306 @@
+{
+    "version": "1.0",
+    "lastUpdated": "2024-03-10",
+    "categories": [
+      {
+        "id": "pain-management",
+        "name": "Pain Management",
+        "description": "Chronic and Acute Pain Management",
+        "orderIndex": 1,
+        "subcategories": [
+          {
+            "id": "headaches",
+            "name": "Headaches and Migraines"
+          },
+          {
+            "id": "back-pain",
+            "name": "Low Back Pain"
+          },
+          {
+            "id": "neck-pain",
+            "name": "Neck Pain"
+          },
+          {
+            "id": "knee-pain",
+            "name": "Knee Pain"
+          },
+          {
+            "id": "shoulder-pain",
+            "name": "Shoulder Pain and Frozen Shoulder"
+          },
+          {
+            "id": "arthritis-pain",
+            "name": "Arthritis Pain"
+          },
+          {
+            "id": "myalgia",
+            "name": "Myalgia and Fibromyalgia"
+          },
+          {
+            "id": "neuralgia",
+            "name": "Neuralgia and Sciatica"
+          }
+        ]
+      },
+      {
+        "id": "neurological",
+        "name": "Neurological Disorders",
+        "description": "Nervous System Disorders",
+        "orderIndex": 2,
+        "subcategories": [
+          {
+            "id": "sciatica",
+            "name": "Sciatica"
+          },
+          {
+            "id": "stroke",
+            "name": "Stroke Aftermath"
+          },
+          {
+            "id": "neuropathy",
+            "name": "Peripheral Neuropathy"
+          },
+          {
+            "id": "trigeminal",
+            "name": "Trigeminal Neuralgia"
+          },
+          {
+            "id": "bells-palsy",
+            "name": "Facial Paralysis and Bell's Palsy"
+          }
+        ]
+      },
+      {
+        "id": "digestive",
+        "name": "Digestive Disorders",
+        "description": "Digestive System Issues",
+        "orderIndex": 3,
+        "subcategories": [
+          {
+            "id": "ibs",
+            "name": "Irritable Bowel Syndrome (IBS)"
+          },
+          {
+            "id": "indigestion",
+            "name": "Indigestion and Dyspepsia"
+          },
+          {
+            "id": "bowel-issues",
+            "name": "Constipation and Diarrhea"
+          },
+          {
+            "id": "gastritis",
+            "name": "Gastritis and Peptic Ulcer"
+          }
+        ]
+      },
+      {
+        "id": "mental-health",
+        "name": "Mental Health Management",
+        "description": "Mental and Emotional Health",
+        "orderIndex": 4,
+        "subcategories": [
+          {
+            "id": "anxiety",
+            "name": "Anxiety"
+          },
+          {
+            "id": "depression",
+            "name": "Depression"
+          },
+          {
+            "id": "insomnia",
+            "name": "Insomnia"
+          },
+          {
+            "id": "stress",
+            "name": "Stress Management"
+          },
+          {
+            "id": "ptsd",
+            "name": "Post-Traumatic Stress Disorder"
+          }
+        ]
+      },
+      {
+        "id": "respiratory",
+        "name": "Respiratory Disorders",
+        "description": "Respiratory System Issues",
+        "orderIndex": 5,
+        "subcategories": [
+          {
+            "id": "asthma",
+            "name": "Asthma"
+          },
+          {
+            "id": "rhinitis",
+            "name": "Allergic Rhinitis"
+          },
+          {
+            "id": "bronchitis",
+            "name": "Bronchitis"
+          },
+          {
+            "id": "cold-flu",
+            "name": "Common Cold and Influenza"
+          }
+        ]
+      },
+      {
+        "id": "womens-health",
+        "name": "Women's Health",
+        "description": "Women's Health Issues",
+        "orderIndex": 6,
+        "subcategories": [
+          {
+            "id": "dysmenorrhea",
+            "name": "Dysmenorrhea"
+          },
+          {
+            "id": "irregular-menstruation",
+            "name": "Irregular Menstruation"
+          },
+          {
+            "id": "menopause",
+            "name": "Menopausal Symptoms"
+          },
+          {
+            "id": "infertility",
+            "name": "Infertility Treatment"
+          },
+          {
+            "id": "pregnancy",
+            "name": "Pregnancy-Related Symptoms and Morning Sickness"
+          }
+        ]
+      },
+      {
+        "id": "musculoskeletal",
+        "name": "Musculoskeletal Disorders",
+        "description": "Musculoskeletal System Issues",
+        "orderIndex": 7,
+        "subcategories": [
+          {
+            "id": "myofascial",
+            "name": "Myofascial Pain Syndrome"
+          },
+          {
+            "id": "tennis-elbow",
+            "name": "Tennis Elbow"
+          },
+          {
+            "id": "arthritis",
+            "name": "Arthritis"
+          },
+          {
+            "id": "plantar",
+            "name": "Plantar Fasciitis"
+          }
+        ]
+      },
+      {
+        "id": "immune",
+        "name": "Immune & Autoimmune Disorders",
+        "description": "Immune System Issues",
+        "orderIndex": 8,
+        "subcategories": [
+          {
+            "id": "rheumatoid",
+            "name": "Rheumatoid Arthritis"
+          },
+          {
+            "id": "lupus",
+            "name": "Systemic Lupus Erythematosus"
+          },
+          {
+            "id": "immune-boost",
+            "name": "Immune System Boosting"
+          }
+        ]
+      },
+      {
+        "id": "cardiovascular",
+        "name": "Cardiovascular Disorders",
+        "description": "Cardiovascular Health",
+        "orderIndex": 9,
+        "subcategories": [
+          {
+            "id": "hypertension",
+            "name": "Hypertension"
+          },
+          {
+            "id": "angina",
+            "name": "Angina"
+          },
+          {
+            "id": "arrhythmia",
+            "name": "Arrhythmia"
+          }
+        ]
+      },
+      {
+        "id": "allergic-skin",
+        "name": "Allergic & Skin Disorders",
+        "description": "Allergies and Skin Health",
+        "orderIndex": 10,
+        "subcategories": [
+          {
+            "id": "allergies",
+            "name": "Allergic Reactions"
+          },
+          {
+            "id": "eczema",
+            "name": "Atopic Dermatitis and Eczema"
+          },
+          {
+            "id": "urticaria",
+            "name": "Urticaria"
+          },
+          {
+            "id": "acne",
+            "name": "Acne"
+          }
+        ]
+      },
+      {
+        "id": "endocrine",
+        "name": "Endocrine & Metabolic Disorders",
+        "description": "Endocrine and Metabolic Issues",
+        "orderIndex": 11,
+        "subcategories": [
+          {
+            "id": "diabetes",
+            "name": "Diabetes Mellitus"
+          },
+          {
+            "id": "hypothyroidism",
+            "name": "Hypothyroidism"
+          },
+          {
+            "id": "obesity",
+            "name": "Obesity Management"
+          }
+        ]
+      },
+      {
+        "id": "urogenital",
+        "name": "Urogenital Disorders",
+        "description": "Urogenital Health",
+        "orderIndex": 12,
+        "subcategories": [
+          {
+            "id": "incontinence",
+            "name": "Urinary Incontinence"
+          },
+          {
+            "id": "frequent-urination",
+            "name": "Frequent Urination"
+          },
+          {
+            "id": "prostate",
+            "name": "Prostate Issues"
+          }
+        ]
+      }
+    ]
+  }

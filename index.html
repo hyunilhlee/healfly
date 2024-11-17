@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healfly - 한의학 상담</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <div class="progress-bar">
+        <div class="step active">증상 선택</div>
+        <div class="step">기본정보</div>
+        <div class="step">상담</div>
+        <div class="step">결과</div>
+    </div>
+
+    <main>
+        <div id="symptomsGrid" class="symptoms-grid">
+            <!-- 증상 카드들이 여기에 동적으로 추가됩니다 -->
+        </div>
+
+        <div id="userInfoForm" class="user-info-form hidden">
+            <div class="form-header">
+                <h2>기본 정보 입력</h2>
+                <p>정확한 상담을 위해 기본 정보를 입력해주세요.</p>
+            </div>
+            
+            <form id="basicInfoForm">
+                <div class="form-group">
+                    <label for="gender">성별 <span class="required">*</span></label>
+                    <select id="gender" name="gender" required>
+                        <option value="">선택해주세요</option>
+                        <option value="male">남성</option>
+                        <option value="female">여성</option>
+                        <option value="other">선택 안함</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="ageGroup">연령대 <span class="required">*</span></label>
+                    <select id="ageGroup" name="ageGroup" required>
+                        <option value="">선택해주세요</option>
+                        <option value="10s">10대</option>
+                        <option value="20s">20대</option>
+                        <option value="30s">30대</option>
+                        <option value="40s">40대</option>
+                        <option value="50s">50대</option>
+                        <option value="60s">60대 이상</option>
+                    </select>
+                </div>
+
+                <div class="form-buttons">
+                    <button type="button" class="back-button">이전으로</button>
+                    <button type="submit" class="next-button">다음 단계</button>
+                </div>
+            </form>
+        </div>
+
+        <div id="consultationInterface" class="consultation-interface hidden">
+            <div class="chat-container">
+                <div class="chat-messages" id="chatMessages">
+                    <!-- 메시지들이 여기에 동적으로 추가됩니다 -->
+                </div>
+                <div class="chat-input">
+                    <form id="chatForm">
+                        <input type="text" id="userInput" placeholder="답변을 입력하세요..." required>
+                        <button type="submit">전송</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script type="module">
+        import { config } from './js/config.js';
+        import { renderSymptomCards } from './js/symptoms.js';
+        import { initializeUserInfo } from './js/userInfo.js';
+        
+        document.addEventListener('DOMContentLoaded', () => {
+            renderSymptomCards();
+            initializeUserInfo();
+        });
+
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('./sw.js')
+                .then(registration => console.log('ServiceWorker 등록 성공'))
+                .catch(err => console.log('ServiceWorker 등록 실패:', err));
+        }
+    </script>
+</body>
+</html> 
